@@ -38,7 +38,7 @@ export default class RichTextEditor extends Component {
     this.focusListeners = [];
   }
 
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     // if (PlatformIOS) {
     //     this.keyboardEventListeners = [
     //         Keyboard.addListener('keyboardWillShow', this._onKeyboardWillShow),
